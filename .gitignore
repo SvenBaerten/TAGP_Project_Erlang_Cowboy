@@ -1,0 +1,5 @@
+deps
+ebin/*.beam
+_rel
+relx
+.erlang.mk
