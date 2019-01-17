@@ -1,0 +1,80 @@
+<!--
+%%%% Taak TAGP 2018-2019: Digital Twin %%%%
+
+% Sven Baerten (1540637) - sven.baerten@student.uhasselt.be
+% Faculteit Industriële Ingenieurswetenschappen - Master Elektronica-ICT aan de UHasselt en KU Leuven
+% Vak: Toepassingen en algoritmes van geavanceerde programmeertalen [TAGP]
+% Docenten: Paul Valckenaers en Kris Aerts
+
+% Gepersonaliseerde opdracht: Digital Twin met Cowboy webserver (Cowboy: https://ninenines.eu/ en https://github.com/ninenines/cowboy)
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sven Baerten">
+    <meta name="description" content="TAGP project using Erlang and the Cowboy web server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>TAGP Project Erlang Cowboy</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>TAGP Project: Digital Twin with Cowboy web server</h1>
+    </header>
+
+    <section>
+        <div id="diagram-container">
+            <h1>Application Diagram</h1>
+            <div id="diagram">
+                <div id="myDiagramDiv" style="width:400px; height:400px"></div>
+                <div id="diagram-resource"><p>Click on a resource</p></div>
+            </div>
+        </div>
+
+        <div id="terminal-container">
+            <h1>Terminal</h1>
+            <div id="terminal-subcontainer">
+                <div id="terminal" style="width:600px; height:400px"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <p>Student: Sven Baerten - <a class="ref" href="mailto:sven.baerten@student.uhasselt.be?Subject=Project%20Erlang" target="_top">sven.baerten@student.uhasselt.be</a></p>
+            <p>Field of study: MSc in Electronics and ICT Engineering Technology</p>
+            <p>Course: Toepassingen en algoritmes van geavanceerde programmeertalen [TAGP]</p>
+            <p>Teachers: Paul Valckenaers & Kris Aerts</p>
+        </div>
+
+        <div>
+            <p>TAGP source: <a class="ref" href="https://github.com/VALCKENAERSPaul" target="_blank">https://github.com/VALCKENAERSPaul</a></p>
+            <p>Cowboy source: <a class="ref" href="https://github.com/ninenines/cowboy" target="_blank">https://github.com/ninenines/cowboy</a></p>
+            <p>Gojs source: <a class="ref" href="https://gojs.net" target="_blank">https://gojs.net</a></p>
+            <p>Terminal source: <a class="ref" href="https://github.com/jcubic/jquery.terminal/wiki/" target="_blank">https://github.com/jcubic/jquery.terminal/</a></p>
+        </div>
+
+        <div>
+            <figure id="logo"><a href="https://www.uhasselt.be/" target="_blank"><img src="/site/img/uhasselt_kuleuven.png" alt="UHasselt - KULeuven Logo" width="250" height="*"></a></figure>
+        </div>
+    </footer>
+</body>
+
+<!-- Include the go.js library from https://gojs.net to draw the application diagram-->
+<script type="text/javascript" src="go.js/go-debug.js"></script> 
+
+<!-- Include the jquery terminal library from https://github.com/jcubic/jquery.terminal/-->
+<script type="text/javascript" src="jquery/jquery-latest.js"></script>
+<script type="text/javascript" src="jquery_terminal/jquery_terminal_min.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery_terminal/jquery_terminal_min.css"/>
+
+<!-- Include the TAGP project javascript file -->
+<script type="text/javascript" src="script.js"></script>
+
+</html>

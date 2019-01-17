@@ -1,0 +1,137 @@
+/*
+%%%% Taak TAGP 2018-2019: Digital Twin %%%%
+
+% Sven Baerten (1540637) - sven.baerten@student.uhasselt.be
+% Faculteit Industriële Ingenieurswetenschappen - Master Elektronica-ICT aan de UHasselt en KU Leuven
+% Vak: Toepassingen en algoritmes van geavanceerde programmeertalen [TAGP]
+% Docenten: Paul Valckenaers en Kris Aerts
+
+% Gepersonaliseerde opdracht: Digital Twin met Cowboy webserver (Cowboy: https://ninenines.eu/ en https://github.com/ninenines/cowboy)
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: inherit;
+    font-family: inherit;
+    outline:none;
+    text-decoration: none;
+}
+/**********************/
+
+/* Style body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Style header */
+header {
+    background-color: rgb(46, 38, 38);   /*#B94629;*/
+    height: 4.6vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 0;
+    border-bottom: solid 5px gray;
+}
+
+header h1 {
+    color: #E9E9E9;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Style section */
+section {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section #diagram-container {
+    /* Empty */
+}
+
+section #diagram-container h1{
+    display: inline;
+    position: relative;
+    top : 0.6rem;
+    left : 0.6rem;
+    color: rgb(46, 38, 38);
+    background-color: white;
+    padding: 0 0.2rem;
+}
+
+section #diagram {
+    display: flex;
+    width: fit-content;
+    border: 2px rgb(46, 38, 38) solid;
+    border-radius: 7px;
+}
+
+section #myDiagramDiv {
+    /* Empty */
+}
+
+section #diagram-resource {
+    padding: 1rem 0;
+    padding-right: 1rem;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(46, 38, 38);
+}
+
+section #terminal-container {
+    /* Empty */
+}
+
+section #terminal-container h1{
+    display: inline;
+    position: relative;
+    top : 0.6rem;
+    left : 0.6rem;
+    color: rgb(46, 38, 38);
+    background-color: white;
+    padding: 0 0.2rem;
+}
+
+section #terminal-subcontainer {
+    height: fit-content;
+    width: fit-content;
+    border: 2px rgb(46, 38, 38) solid;
+    border-radius: 7px;
+    padding: 0.7rem;
+}
+
+/* Style footer */
+footer {
+    background-color: rgb(46, 38, 38);
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: solid 5px gray;
+}
+
+footer div {
+    padding: 0.6rem;
+}
+
+footer p {
+    color: #E9E9E9;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.12rem 0rem;
+}
+
+footer .ref {
+    color: #E9E9E9;
+}
